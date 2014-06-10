@@ -1,3 +1,1 @@
 language: objective-c
-xcode_project: 抓阄.xcodeproj # path to your xcodeproj folder
-xcode_scheme: 抓阄

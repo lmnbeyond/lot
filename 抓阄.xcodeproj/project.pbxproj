@@ -114,6 +114,7 @@
 		C84D23B9192F4EB600CDFD72 /* 抓阄 */ = {
 			isa = PBXGroup;
 			children = (
+				C84D247F1934702400CDFD72 /* iPad */,
 				C84D23C2192F4EB600CDFD72 /* AppDelegate.h */,
 				C84D23C3192F4EB600CDFD72 /* AppDelegate.m */,
 				C84D23C5192F4EB600CDFD72 /* Main_iPhone.storyboard */,
@@ -153,6 +154,13 @@
 				C84D23DE192F4EB600CDFD72 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C84D247F1934702400CDFD72 /* iPad */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = iPad;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -393,7 +401,9 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "抓阄/抓阄-Prefix.pch";
 				INFOPLIST_FILE = "抓阄/抓阄-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -406,7 +416,9 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "抓阄/抓阄-Prefix.pch";
 				INFOPLIST_FILE = "抓阄/抓阄-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -470,6 +482,7 @@
 				C84D23E7192F4EB600CDFD72 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C84D23E8192F4EB600CDFD72 /* Build configuration list for PBXNativeTarget "抓阄Tests" */ = {
 			isa = XCConfigurationList;
@@ -478,6 +491,7 @@
 				C84D23EA192F4EB600CDFD72 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
